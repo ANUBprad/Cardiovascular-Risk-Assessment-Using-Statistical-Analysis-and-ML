@@ -69,10 +69,10 @@ Feature engineering steps included:
 - Creating age-based buckets for non-linear risk capture
 - Engineering interaction terms (e.g., age × cholesterol)
 - Encoding categorical variables for modeling consistency
-
----
+```
 
 ## 🤖 Modeling Approach
+
 Supervised learning models trained and evaluated:
 - Logistic Regression (interpretable baseline)
 - Random Forest
@@ -83,17 +83,17 @@ Given the medical screening context:
 - 🔁 **Recall** was prioritized to minimize false negatives
 - 📊 Precision, ROC-AUC, and confusion matrix were also used
 
----
 
 ## 🔍 Model Interpretability
+
 - 📉 Logistic Regression coefficients analyzed for feature influence
 - 🌳 Tree-based feature importance used to identify dominant predictors
 
 Consistently strong indicators included age, blood pressure, cholesterol, and smoking-related features.
 
----
 
 ## 🧭 Risk Stratification
+
 Predicted probabilities were converted into:
 - 🟢 Low Risk
 - 🟡 Medium Risk
@@ -101,9 +101,9 @@ Predicted probabilities were converted into:
 
 This enables actionable decision support beyond raw probability scores.
 
----
 
 ## 🌐 Deployment
+
 A Streamlit-based web application enables:
 - User-friendly health input collection
 - Real-time risk prediction
@@ -111,32 +111,32 @@ A Streamlit-based web application enables:
 
 This bridges the gap between modeling and real-world usability.
 
----
 
 ## ⚠️ Limitations
+
 - Dataset represents a specific population and may not generalize universally
 - Intended for **educational and screening purposes only**
 - Not a substitute for professional medical diagnosis
 
----
 
 ## 🚀 Future Enhancements
+
 - Integrate SHAP for instance-level explainability
 - Hyperparameter tuning with cross-validation
 - Expand dataset diversity
 - Add longitudinal risk tracking
 
----
 
 ## 🛠️ Tech Stack
+
 - **Python**
 - **Pandas, NumPy**
 - **Scikit-learn, SciPy**
 - **Streamlit**
 
----
 
 ## 👤 Author
+
 **Anubhab Pradhan**  
 🔗 GitHub: https://github.com/ANUBprad
 
