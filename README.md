@@ -4,7 +4,14 @@
 
 ---
 
+## ⚖️ Disclaimer
+
+This project is for educational and analytical purposes only and does not constitute medical advice.
+
+---
+
 ## 📌 Overview
+
 Cardiovascular disease is a leading cause of global mortality.  
 This project applies **data science principles** to structured healthcare data to identify key risk factors and deliver **probability-based risk stratification** for decision support.
 
@@ -17,6 +24,7 @@ Key highlights:
 ---
 
 ## ❓ Problem Statement
+
 Early detection of cardiovascular risk enables preventive intervention and improved outcomes.  
 The objective of this project is to:
 - Analyze clinical and lifestyle data
@@ -27,6 +35,7 @@ The objective of this project is to:
 ---
 
 ## 🗂️ Dataset
+
 - 📁 Structured healthcare dataset with **4,000+ patient records**
 - 🎯 Target variable: `TenYearCHD` (10-year cardiovascular disease risk)
 - 🧬 Features include demographics, medical history, and physiological measurements
@@ -36,6 +45,7 @@ Raw data is preserved and all preprocessing steps are fully reproducible.
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
+
 Key insights from EDA:
 - 📈 Age and systolic blood pressure strongly correlate with disease risk
 - 🧪 Cholesterol shows higher variability among high-risk individuals
@@ -81,7 +91,7 @@ Supervised learning models trained and evaluated:
 - Gradient Boosting
 
 
-### 📏 Evaluation Metrics
+## 📏 Evaluation Metrics
 Given the medical screening context:
 - 🔁 **Recall** was prioritized to minimize false negatives
 - 📊 Precision, ROC-AUC, and confusion matrix were also used
@@ -107,6 +117,14 @@ This enables actionable decision support beyond raw probability scores.
 
 ---
 
+## 🛠️ Tech Stack
+
+- **Python**
+- **Pandas, NumPy**
+- **Scikit-learn, SciPy**
+- **Streamlit**
+
+  
 ## 🌐 Deployment
 
 A Streamlit-based web application enables:
@@ -124,23 +142,9 @@ This bridges the gap between modeling and real-world usability.
 - Expand dataset diversity
 - Add longitudinal risk tracking
 
-
-## 🛠️ Tech Stack
-
-- **Python**
-- **Pandas, NumPy**
-- **Scikit-learn, SciPy**
-- **Streamlit**
-
 ---
 
 ## 👤 Author
 
 **Anubhab Pradhan**  
 🔗 GitHub: https://github.com/ANUBprad
-
----
-
-## ⚖️ Disclaimer
-
-This project is for educational and analytical purposes only and does not constitute medical advice.
