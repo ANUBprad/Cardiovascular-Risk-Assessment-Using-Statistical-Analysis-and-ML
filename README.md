@@ -71,12 +71,15 @@ Feature engineering steps included:
 - Encoding categorical variables for modeling consistency
 ```
 
+---
+
 ## 🤖 Modeling Approach
 
 Supervised learning models trained and evaluated:
 - Logistic Regression (interpretable baseline)
 - Random Forest
 - Gradient Boosting
+
 
 ### 📏 Evaluation Metrics
 Given the medical screening context:
@@ -91,6 +94,7 @@ Given the medical screening context:
 
 Consistently strong indicators included age, blood pressure, cholesterol, and smoking-related features.
 
+---
 
 ## 🧭 Risk Stratification
 
@@ -101,6 +105,7 @@ Predicted probabilities were converted into:
 
 This enables actionable decision support beyond raw probability scores.
 
+---
 
 ## 🌐 Deployment
 
@@ -110,13 +115,6 @@ A Streamlit-based web application enables:
 - Probability-based risk categorization
 
 This bridges the gap between modeling and real-world usability.
-
-
-## ⚠️ Limitations
-
-- Dataset represents a specific population and may not generalize universally
-- Intended for **educational and screening purposes only**
-- Not a substitute for professional medical diagnosis
 
 
 ## 🚀 Future Enhancements
@@ -134,6 +132,7 @@ This bridges the gap between modeling and real-world usability.
 - **Scikit-learn, SciPy**
 - **Streamlit**
 
+---
 
 ## 👤 Author
 
@@ -143,6 +142,5 @@ This bridges the gap between modeling and real-world usability.
 ---
 
 ## ⚖️ Disclaimer
-This project is for educational and analytical purposes only and does not constitute medical advice.
 
-```
+This project is for educational and analytical purposes only and does not constitute medical advice.
